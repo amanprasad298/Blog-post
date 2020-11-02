@@ -1,0 +1,25 @@
+.content-cs {
+    margin-top: 90px;
+    display: flex;
+    padding: 25px;
+    height: 635px;
+    justify-content: center;
+    /* box-shadow: 7px 7px 7px  rgba(0, 0, 0, .3); */
+    position: relative;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+
+.content-cs:after {
+    content: "";
+    background-image: url(../Resources/contact.svg);
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    border-radius: 12px;
+    opacity: 0.15;
+    z-index: -1;
+}

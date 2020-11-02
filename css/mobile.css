@@ -1,0 +1,76 @@
+@media screen and (max-width: 1200px) {
+
+    
+    .correct-nav {
+        position: relative;
+    }
+
+    .navigation {
+        flex-direction: column;
+        margin-bottom: 23px;
+        
+    }
+
+    .nav-left {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content {
+        margin-top: 40px;
+        height: 100%;
+    }
+
+    .content-right {
+        display: none;
+    }
+
+    .content-left {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .home-article {
+        flex-direction: column;
+    }
+
+    .anime {
+        align-self: center;
+    }
+
+
+    .home-articles {
+        max-width: 80vw;
+
+    }
+
+    .home-article-content {
+        align-self: center;
+        padding: 0 30px;
+        font-size: 18px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .year-box {
+        position: relative;
+        top: 0px;
+        right: 0;
+        width: 239px;
+
+        /* background-color: rebeccapurple; */
+    }
+
+    .year-box h3 {
+        font-size: 16px;
+    }
+
+    .form-box input, textarea {
+        width: 60vw;
+    }
+
+    .form-input {
+        width: 50%;
+    }
+
+}
