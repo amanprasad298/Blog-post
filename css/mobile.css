@@ -1,6 +1,8 @@
 @media screen and (max-width: 1200px) {
 
-    
+    *{
+        scroll-behavior: smooth;
+    }
     .correct-nav {
         position: relative;
     }
